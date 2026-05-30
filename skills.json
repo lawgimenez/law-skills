@@ -1,0 +1,23 @@
+{
+  "schema_version": "1.0",
+  "repository": "lawgimenez/law-skills",
+  "license": "MIT",
+  "skills": [
+    {
+      "name": "repo-plan",
+      "owner": "Lawrence Gimenez",
+      "license": "MIT",
+      "path": "repo-plan",
+      "entrypoint": "repo-plan/SKILL.md",
+      "format": "portable-markdown-skill",
+      "description": "Write, review, or revise planning-only Markdown documents in a repository's plans folder.",
+      "install": {
+        "folder_url": "https://github.com/lawgimenez/law-skills/tree/main/repo-plan",
+        "raw_url": "https://raw.githubusercontent.com/lawgimenez/law-skills/main/repo-plan/SKILL.md"
+      },
+      "optional_metadata": {
+        "openai": "repo-plan/agents/openai.yaml"
+      }
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Repo Plan"
+  short_description: "Write and review repo plans"
+  default_prompt: "Use $repo-plan to write or review a planning-only implementation plan with the right visual companion in this repository's plans folder."
