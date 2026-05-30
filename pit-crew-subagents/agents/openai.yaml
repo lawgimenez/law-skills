@@ -1,0 +1,4 @@
+interface:
+  display_name: "Pit Crew Subagents"
+  short_description: "Name delegated helper agents with clear band codenames"
+  default_prompt: "Apply the pit-crew-subagents skill when naming focused delegated helpers, reviewers, investigators, workers, or subagents."
