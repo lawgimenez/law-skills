@@ -1,6 +1,7 @@
 {
   "schema_version": "1.0",
   "repository": "lawgimenez/law-skills",
+  "owner": "Lawrence Gimenez",
   "license": "MIT",
   "skills": [
     {
@@ -17,6 +18,22 @@
       },
       "optional_metadata": {
         "openai": "repo-plan/agents/openai.yaml"
+      }
+    },
+    {
+      "name": "pit-crew-subagents",
+      "owner": "Lawrence Gimenez",
+      "license": "MIT",
+      "path": "pit-crew-subagents",
+      "entrypoint": "pit-crew-subagents/SKILL.md",
+      "format": "portable-markdown-skill",
+      "description": "Assign readable pre-2005 band codenames to focused delegated helper agents while keeping each role clear.",
+      "install": {
+        "folder_url": "https://github.com/lawgimenez/law-skills/tree/main/pit-crew-subagents",
+        "raw_url": "https://raw.githubusercontent.com/lawgimenez/law-skills/main/pit-crew-subagents/SKILL.md"
+      },
+      "optional_metadata": {
+        "openai": "pit-crew-subagents/agents/openai.yaml"
       }
     }
   ]
